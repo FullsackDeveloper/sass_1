@@ -1,0 +1,109 @@
+/* BASIC STYLE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  border: none;
+}
+
+.d_flex {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 1550px;
+  margin: 0 auto;
+}
+
+:root {
+  font-size: 10px;
+}
+
+/* header section */
+header {
+  padding: 2rem 2.5rem;
+  justify-content: space-between;
+  background: #EDEFF2;
+  border-bottom: 2px solid var(--gray-blue-grey-blue-95, #EDEFF2);
+}
+header .logo {
+  gap: 4rem;
+}
+header .logo .btn {
+  cursor: pointer;
+}
+header .logo a {
+  display: inline-block;
+  color: #4d5e80;
+  font-family: "roboto";
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 3rem;
+}
+header ul {
+  gap: 3rem;
+}
+header ul a {
+  color: #4d5e80;
+  display: inline-block;
+  font-family: "roboto";
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+}
+header ul img {
+  cursor: pointer;
+  margin-top: 0.2rem;
+  width: 3rem;
+  height: 3rem;
+}
+header .search {
+  width: 33.5rem;
+  height: 6rem;
+  gap: 1rem;
+  padding: 1.5rem 4rem 1.5rem 2rem;
+  border-radius: 3rem;
+  background: #fff;
+  box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+}
+header .search input {
+  width: 21rem;
+  height: 2rem;
+  border: none;
+}
+header .search ::-moz-placeholder {
+  color: #ADB8CC;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+header .search ::placeholder {
+  color: #ADB8CC;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+header .santos {
+  gap: 1.5rem;
+  width: 13.3rem;
+  margin-right: 3rem;
+}
+header .santos p {
+  font-family: "roboto";
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  color: #6B7A99;
+}/*# sourceMappingURL=style.css.map */
